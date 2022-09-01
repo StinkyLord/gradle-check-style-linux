@@ -5,5 +5,5 @@
       matchStrings: ["\s*checkstyle\s*(?<registry>\"?[a-z.-]+):(?<depName>[a-z-]+):(?<currentValue>[a-z0-9.-]+)\""],
       packageNameTemplate: "{{{ registry }}}{{{ depName }}}"
     },
-  ],
+  ]
 }
