@@ -1,9 +1,0 @@
-{
-"regexManagers":[
-    {
-      "datasourceTemplate": "maven",
-      "fileMatch": ["build.gradle"],
-      "matchStrings": ["\\s*checkstyle\\s*(?<registry>\"?[a-z.-]+):(?<depName>[a-z-]+):(?<currentValue>[a-z0-9.-]+)\""]
-    }
-  ]
-}
