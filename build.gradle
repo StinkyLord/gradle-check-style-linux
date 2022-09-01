@@ -18,7 +18,7 @@ checkstyle {
 }
 
 dependencies {
-    checkstyle "com.puppycrawl.tools:checkstyle:8.25"
+    implementation "com.puppycrawl.tools:checkstyle:8.25"
 }
 
 tasks.register('checkstyle').configure {
