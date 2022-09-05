@@ -18,7 +18,7 @@ checkstyle {
 }
 
 dependencies {
-    checkstyle "com.puppycrawl.tools:checkstyle:8.25"
+    checkstyle "com.puppycrawl.tools:checkstyle:${project.extensions.checkstyle.toolVersion}"
 }
 
 tasks.register('checkstyle').configure {
