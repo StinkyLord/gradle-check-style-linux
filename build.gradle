@@ -17,8 +17,13 @@ checkstyle {
     ignoreFailures = false
 }
 
+ext {
+    maronVersion = "2.13.0"
+}
+
 dependencies {
     checkstyle "com.puppycrawl.tools:checkstyle:${project.extensions.checkstyle.toolVersion}"
+    errorprone "com.google.errorprone:error_prone_core:${maronVersion}"
 }
 
 tasks.register('checkstyle').configure {
